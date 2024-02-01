@@ -1,0 +1,203 @@
+#gamecube {
+	width: 400px;
+	margin: auto;
+	position: absolute;
+	top: 100px;
+	left: -600px;
+	right: 0px;
+	animation-delay: -2s;
+  	animation-duration: 15s;	
+  	animation: float 4s linear infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(30px) rotate(5deg);
+  }
+
+  100% {
+	transform: translateY(0px);
+  }
+}
+
+#knight {
+	
+}
+
+body {
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c83c004e-1370-4756-88e5-4071de797088/ddjk36s-36e736ed-a3f5-4ead-bc5a-2055ad79d8a7.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M4M2MwMDRlLTEzNzAtNDc1Ni04OGU1LTQwNzFkZTc5NzA4OFwvZGRqazM2cy0zNmU3MzZlZC1hM2Y1LTRlYWQtYmM1YS0yMDU1YWQ3OWQ4YTcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pgxwYJcrj6fKZmowAdX5HbdvaHWItqxLpSim41_sgC4);
+	background-size: cover;
+	
+}
+
+
+.box {
+	background-color: white;
+	width: 500px;
+	border-radius: 40px;
+	padding-bottom: 20px;
+	margin: auto;
+
+}
+
+h1 {
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 24px;
+
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	margin-top: -16px;
+}
+
+p {
+	text-align: center;
+
+}
+
+#description {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -11px;
+	text-align: center;
+
+}
+
+form {
+	margin: 0px 30px;
+}
+
+
+input,
+select {
+  font-size: 11px;
+  border-style: none;
+  background: none;
+  font-family: 'Press Start 2P', cursive; 
+  text-transform: uppercase;
+  outline: none;
+
+}
+
+.no-column, 
+.date,
+.half {
+  background-color: #ffadfa;
+  border-radius: 50px;
+  padding: 0.5em 0.7em;
+  margin-bottom: 15px;
+
+
+}
+
+.no-column input {
+  width: 99%;
+}
+
+.date {
+  display: flex;
+}
+
+.date input {
+  width: 99%;
+  color: #757575;
+}
+
+.date label {
+  display: inline-block;
+  width: 80px;
+  font-family: 'Press Start 2P', cursive; 
+  text-transform: uppercase;
+  font-size: 11px; 
+  text-align: center; 
+  margin: 3px 1px 0 -8px;
+
+}
+
+.column input {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+
+.terms {
+	font-family: 'Press Start 2P', cursive;
+  	text-transform: uppercase;
+  	font-size: 10px;
+  	text-align: center;
+  	color: #2934cf;
+}
+
+#where {
+	font-family: 'Press Start 2P', cursive;
+	text-transform: uppercase;
+  	font-size: 10px;
+}
+
+.choice {
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	text-transform: uppercase;
+  	font-size: 10px;
+}
+
+.button {
+	text-align: center;
+
+}
+
+button {
+	width: 140px;
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+	padding: 7px 15px;
+	background-color: #61c2ff;
+	font-family: 'Press Start 2P', cursive;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+button:hover {
+	animation-name: hover;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 0s;
+	position: relative;
+	
+}
+
+@keyframes hover {
+	0% {background: #61c2ff;}
+	100% {background: #378bbf;}
+}
+
+#google {
+	margin: 0em 2em;
+	font-family: 'Press Start 2P', cursive;
+  	text-transform: uppercase;
+  	font-size: 10px;
+  	text-align: center;
+  	margin-bottom: 1em;
+  	list-style-type: none;
+  	color: black;
+	}
